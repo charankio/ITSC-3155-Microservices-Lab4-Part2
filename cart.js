@@ -79,6 +79,7 @@ function checkOut() {
         contentType: 'json',
 
         success: function (data) {
+            alert("Thank you for checking out, goodbye!");
             getCart(data);
         },
         error: function (data) {
