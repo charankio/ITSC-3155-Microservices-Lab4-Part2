@@ -166,9 +166,6 @@ function setComment($id) {
 
     //Set Comment
     
-    var comment;
-    var commentAdd;
-    
     $.ajax({
         url: Url+'SetComment',
         type: 'post',
